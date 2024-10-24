@@ -17,15 +17,16 @@
           rotation="-90 0 0"
           src="image.png"
         ></a-image>
-       
       </a-marker>
 
       <a-assets>
         <video
           id="abc"
-               autoplay
-               loop="ture"
-          src="abs.mp4"
+          autoplay
+          loop
+          muted
+          playsinline
+          src="https://raw.githubusercontent.com/hkgvnf/testsdpl2p/main/ar/abs.mp4"
         ></video>
       </a-assets>
 
@@ -33,8 +34,9 @@
         src="#abc"
         width="5"
         height="3"
-        position="0 0 -20"
+        position="0 0 -5"
       ></a-video>
+      
       <a-entity camera></a-entity>
 
     </a-scene>
